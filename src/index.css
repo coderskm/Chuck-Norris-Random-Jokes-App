@@ -1,0 +1,46 @@
+.container {
+  border: 1px solid black;
+  width: 70%;
+  margin: 20px auto;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.heading {
+  border-bottom: 1px solid black;
+  margin-top: 2px;
+  text-transform: uppercase;
+  font-family: "Courier New", Courier, monospace;
+}
+
+.btn-style {
+  margin: 20px;
+  padding: 12px;
+  font-size: larger;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-style:active {
+  background-color: darkslategray;
+  color: aliceblue;
+}
+
+.fact-style {
+  font-size: x-large;
+  font-weight: 550;
+  margin-top: 60px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  height: 200px;
+}
+
+@keyframes btnClick {
+    50%{
+        font-size: 40px;
+    }
+}
+
+.fact-style-click{
+animation: btnClick 2s infinite;
+}
